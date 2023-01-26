@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container  {
+    
+}
+.background {
+    background: url('../../../public/images/image\ 1.svg') no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+
+}
+.content{
+
+    top: 0;
+    
+}
