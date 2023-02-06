@@ -77,7 +77,7 @@ const Mainthree = () => {
           "&::-webkit-scrollbar": {
             display: "none",
           },
-        }}
+        }}  
       >
         <Box sx={{ display: "flex", gap: "2% ", zIndex: "1", }}>
           {coti.map((card, index) => (

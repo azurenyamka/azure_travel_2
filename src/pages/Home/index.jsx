@@ -6,8 +6,16 @@ import FreeSolo from '../../components/SearchInput';
 import Categories from '../../components/Categories';
 import AutoGrid from '../../components/ScrollBar';
 import Kardman from '../../components/OfferCard';
+import { Navigate } from 'react-router-dom';
+import { useState } from 'react';
 
 const Home = () => {
+  const newLogged = localStorage.getItem('isLogged')
+  const [isLogged, setIsLogged] = useState(newLogged);
+  
+  if(!isLogged) {
+    return <Navigate replace to={'/login'}/>
+  }
   return (
     <Grid className={styles.container}>
       <Grid className={styles.background}>

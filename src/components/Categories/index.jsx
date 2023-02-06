@@ -61,7 +61,7 @@ const Herocard = () => {
     },
   ];
   return (
-    <Grid sx={{margin:'0 0 9'}}>
+    <Grid sx={{margin:'40px 0 80px 120px'}}>
       <Grid sx={{ marginBottom: "3%" }}>
         <Typography
           variant="h3"
